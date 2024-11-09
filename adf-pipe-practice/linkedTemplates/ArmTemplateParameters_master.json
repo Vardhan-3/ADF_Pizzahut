@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-pipe-practice"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"onprem_to_cloud_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://pizzaproject.dfs.core.windows.net/"
+		},
+		"onprem_to_cloud_properties_typeProperties_server": {
+			"value": "localhost"
+		},
+		"onprem_to_cloud_properties_typeProperties_database": {
+			"value": "pizzahut"
+		},
+		"onprem_to_cloud_properties_typeProperties_username": {
+			"value": "root"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
