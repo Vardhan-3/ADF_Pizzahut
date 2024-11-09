@@ -1,0 +1,7 @@
+{
+	"name": "Self-Hosted-IntRunTime",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "Creating my own Integration Runtime to connect SQL server"
+	}
+}
